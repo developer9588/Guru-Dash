@@ -261,6 +261,7 @@ const AddUser = () =>{
                            </div>
 
                            <div className="search-inp">
+                           <label>Select Colour</label>
                            <select
                   className="search-select"
                   onChange={(e) => setColour(e.target.value)}
